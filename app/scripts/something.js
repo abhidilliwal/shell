@@ -11,3 +11,5 @@ window.Something = {
 function doAnother() {
     console.log('doAnother');
 }
+
+module.exports = doAnother;

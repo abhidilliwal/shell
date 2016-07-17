@@ -1,7 +1,7 @@
 console.log('Yo');
 
-class Human {
-    something() {
-        console.log('this is something');
-    }
-}
+var doSomething = require('./something.js');
+
+
+
+window.doS = doSomething;
